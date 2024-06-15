@@ -5,7 +5,7 @@ import SkillList from "../../common/SkillList";
 import {useTheme} from "../../common/ThemeContext";
 function Skills() {
   const {theme} = useTheme();
-  const checkmarkicon = theme === 'light'?checkmarkiconlgiht : checkmarkicondark;
+  const checkmarkicon = theme === 'light'?checkmarkiconlight : checkmarkicondark;
   return (
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
