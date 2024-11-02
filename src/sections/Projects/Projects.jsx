@@ -1,9 +1,6 @@
-import React from "react";
 import styles from "./ProjectsStyles.module.css"
 import logo from "../../assets/logo.png"
 import ProjectCard from "../../common/ProjectCard";
-import freshburger from "../../assets/fresh-burger.png"
-import hipster from "../../assets/hipsster.png"
 import fitlift from "../../assets/fitlift.png"
 function Projects() {
   return (
@@ -14,17 +11,9 @@ function Projects() {
          h3 = "My Pass"
          p="password gen App"
          />
-         <ProjectCard src={freshburger} link={""}
-         h3 = "FreshBurger"
-         p="Hamburger Restaurant"
-         />
-         <ProjectCard src={hipster} link={""}
-         h3 = "Hipster"
-         p="Glasses Shop"
-         />
-         <ProjectCard src={fitlift} link={""}
-         h3 = "Hipster"
-         p="fitness App"
+         <ProjectCard src={fitlift} link={"https://fitness-app-bsh.netlify.app/"}
+         h3 = "BeFit"
+         p="Fitness App"
          />
       </div>
     </section>
