@@ -2,6 +2,7 @@ import styles from "./ProjectsStyles.module.css"
 import logo from "../../assets/logo.png"
 import ProjectCard from "../../common/ProjectCard";
 import fitlift from "../../assets/fitlift.png"
+import chatimg from "../../assets/chatapp.jpg"
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -14,6 +15,10 @@ function Projects() {
          <ProjectCard src={fitlift} link={"https://fitness-app-bsh.netlify.app/"}
          h3 = "BeFit"
          p="Fitness App"
+         />
+         <ProjectCard src={chatimg} link={"https://chat-app-00e3.onrender.com"}
+         h3 = "Chat Us"
+         p="Chat App"
          />
       </div>
     </section>
